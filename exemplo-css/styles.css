@@ -1,0 +1,23 @@
+body {
+    background-color: #FFFAFA;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+p {
+    color: silver;
+}
+
+.footer {
+    color: red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#email{
+    height: 30px;
+    width: 240px;
+    background-color: #CDC9C9;
+    border: none;
+    border-radius: 20px;
+}

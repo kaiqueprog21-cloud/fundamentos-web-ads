@@ -34,3 +34,66 @@ a:hover{
     color: #8d01ff;
     text-decoration: underline;
 }
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0 12px;
+}
+#vantagens ul{
+    list-style-type: square;
+    margin-left: 20px;
+}
+#vantagens li{
+    margin-bottom: 8px;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td{
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+thead {
+    background-color: #2c3e50;
+    color: white;
+}
+tbody tr:nth-child(even){
+    background-color: #f0f0f0;
+}
+main section{
+    background-color: #FFFAFA;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+header{
+    background-color: #2c3e50;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+header .logo{ 
+    margin-bottom: 10px;
+}
+header .logo img{
+    width: 80px;
+    vertical-align: middle;
+    margin-right: 10px; 
+}
+footer{
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
